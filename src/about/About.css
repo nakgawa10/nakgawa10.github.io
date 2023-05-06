@@ -1,0 +1,41 @@
+@import url("./../index.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+.about_me {
+  width: 100%;
+  height: 33rem;
+  margin-top: 2rem;
+  margin-left: -0.4rem;
+  background-color: var(--background-dark);
+  color: white;
+  text-align: center;
+  position: fixed;
+}
+
+.about_me_text > h2 {
+  display: block;
+  position: fixed;
+  margin-top: 7rem;
+  margin-left: 43%;
+  font: "Poppins" sans-serif;
+}
+
+.about_me_text > svg {
+  position: fixed;
+  height: 10rem;
+  width: auto;
+  margin-top: 6rem;
+  margin-left: -7.1rem;
+}
+
+.about_me_text > p {
+  font: "Poppins" sans-serif;
+  font-weight: 100;
+  width: 55%;
+  font-size: small;
+  text-align: center;
+  display: block;
+  position: fixed;
+  margin-top: 14rem;
+  margin-left: 22%;
+}

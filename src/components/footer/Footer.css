@@ -1,0 +1,64 @@
+.footer
+{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    height: 5%;
+    margin-top: 38rem;
+}
+
+.footer > div
+{
+    display: inline-block;
+    margin: auto;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer > div > a
+{
+    color: var(--text-green);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer_social > a
+{
+    margin: 1rem;
+}
+
+.footer-resume > a
+{
+    background-color: var(--background-dark);
+    padding: 1rem;
+    border-radius: 0.2rem;
+    font-size: medium;
+    font-family: "Poppins" sans-serif;
+    font-weight: 300;
+}
+
+.footer-resume > a > svg
+{
+    height: 1rem;
+    width: 1rem;
+    padding-right: 0.3rem;
+    margin-bottom: -0.1rem;
+}
+
+.footer-resume
+{
+    transform: 0.6s;
+}
+
+.footer-resume:hover
+{
+    scale: 1.2;
+}
+
+.footer_social > a > svg
+{
+    display: inline-block;
+}
+

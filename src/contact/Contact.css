@@ -1,0 +1,45 @@
+.contact {
+  width: 100%;
+  height: 33rem;
+  margin-top: 2rem;
+  margin-left: -0.4rem;
+  background-color: var(--text-orange);
+  color: white;
+  text-align: center;
+  position: fixed;
+}
+
+.contact_social {
+  display: inline-block;
+  width: 100%;
+  height: 33rem;
+  text-decoration: none;
+}
+
+.contact_social > div
+{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 11rem;
+    padding: 4rem;
+    color: var(--background-light);
+}
+
+.contact_social > div > a
+{
+    text-decoration: none;
+    margin-top: 11rem;
+}
+
+.contact_social > div > a > svg
+{
+    color: aliceblue;
+    height: 7rem;
+    width: 7rem;
+}
+
+.contact_social > div:hover
+{
+    scale: 1.2;
+}

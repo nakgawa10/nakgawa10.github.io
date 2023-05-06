@@ -1,0 +1,42 @@
+.image {
+  background-color: inherit;
+  width: fit-content;
+  border-radius: 50%;
+  overflow: hidden;
+  position: fixed;
+  height: 10rem;
+  width: 10rem;
+  display: block;
+  margin-left: 42%;
+  margin-top: -4.5rem;
+}
+
+.image > img {
+  display: block;
+  position: absolute;
+  height: 110%;
+  width: 110%;
+  margin-left: -0.6rem;
+  margin-top: -0.9rem;
+}
+
+.back-blue {
+  box-shadow: 0px 0px 1px 1.5rem var(--background-dark);
+}
+
+.back-grey {
+  box-shadow: 0px 0px 1px 1.5rem var(--grey-dark);
+}
+
+.back-green {
+  box-shadow: 0px 0px 1px 1.5rem var(--text-green);
+}
+
+.back-orange
+{
+  box-shadow: 0px 0px 1px 1.5rem var(--text-orange);
+}
+
+.back-light-blue {
+  box-shadow: 0px 0px 1px 1.5rem var(--background-light);
+}
