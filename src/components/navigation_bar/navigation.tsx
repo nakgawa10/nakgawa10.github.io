@@ -32,21 +32,21 @@ function Navigation(props: { active_tab: string; }) {
             "about" === props.active_tab ? "navbar-button active" : "navbar-button"
           }
         >
-          <a href="/about">About</a>
+          <a href="#/about">About</a>
         </div>
         <div
           className={
             "resume" === props.active_tab ? "navbar-button active" : "navbar-button"
           }
         >
-          <a href="/resume">Resume</a>
+          <a href="#/resume">Resume</a>
         </div>
         <div
           className={
             "services" === props.active_tab ? "navbar-button active" : "navbar-button"
           }
         >
-          <a href="/services">Services</a>
+          <a href="#/services">Services</a>
         </div>
       </div>
     </div>
