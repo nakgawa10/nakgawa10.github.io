@@ -2,7 +2,7 @@ import "./navigation.css";
 
 function Navigation(props: { active_tab: string; }) {
   return (
-    <div>
+    <div className="nav">
       <div className="logo">
         <a className="hexagon" href="/">
           <svg

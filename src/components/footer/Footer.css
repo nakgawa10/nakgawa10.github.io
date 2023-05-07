@@ -1,10 +1,11 @@
 .footer
 {
     display: inline-block;
+    position: fixed;
     width: 100%;
     margin: auto;
     height: 5%;
-    margin-top: 38rem;
+    margin-top: 45%;
 }
 
 .footer > div
@@ -19,7 +20,7 @@
 
 .footer > div > a
 {
-    color: var(--text-green);
+    color: var(--text-orange);
     text-decoration: none;
     cursor: pointer;
 }
